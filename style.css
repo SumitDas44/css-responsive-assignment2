@@ -322,8 +322,14 @@ footer {
  Media Queries 
  -------------*/
 @media (max-width: 750px) and (min-width: 451px) {
-  .navbar {
+  .navbar .menu {
     display: none;
+  }
+  .influencer p {
+    text-align: center;
+  }
+  .web-home {
+    padding-top: 0;
   }
 
   /* hero section */
@@ -413,8 +419,14 @@ footer {
 
 /* MOBILE RESPONSIVE */
 @media (max-width: 450px) {
-  .navbar {
+  .navbar .menu {
     display: none;
+  }
+  .influencer p {
+    text-align: center;
+  }
+  .web-home {
+    padding-top: 0;
   }
 
   /* hero section */
@@ -454,6 +466,10 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 8px;
     padding: 0 10px;
+  }
+
+  #accessories {
+    font-size: 36px;
   }
 
   /*  ITEMS */
