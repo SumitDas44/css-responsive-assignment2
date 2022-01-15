@@ -434,6 +434,10 @@ footer {
   .circle {
     display: none;
   }
+  .camera {
+    width: 320px;
+    height: 300px;
+  }
   .web-home,
   .courses {
     grid-template-columns: 1fr;
@@ -472,8 +476,10 @@ footer {
 
   /* COURSE SECTION */
   .course-img {
+    margin-bottom: 30px;
+  }
+  .course-img img {
     width: 100%;
-    margin-bottom: 24px;
   }
   .courses .content {
     margin-left: 0;
